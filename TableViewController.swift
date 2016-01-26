@@ -43,12 +43,12 @@ class TableViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print("You selected cell #\(indexPath.row)!")
-        let calc = (self.tabBarController as! TabBarController!).calc
-        
-        //calc.requirementLabel = "Pounds Boron Needed:"
-    }
+//    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+//        print("You selected cell #\(indexPath.row)!")
+//        let calc = (self.tabBarController as! TabBarController!).calc
+//        
+//       // calc.requirementLabel = "Pounds Boron Needed:"
+//    }
     
      // MARK: - Navigation
 
