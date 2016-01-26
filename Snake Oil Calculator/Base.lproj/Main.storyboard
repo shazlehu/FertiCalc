@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MZZ-fS-dYZ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fertilizer Calculator-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Fertilizer Calculator" id="BYZ-38-t0r" customClass="CalcViewController" customModule="Snake_Oil_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RmV-Ei-4AT"/>
+                        <viewControllerLayoutGuide type="bottom" id="JZ9-70-Hsi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H3S-WK-4JM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3vS-uh-lt3" userLabel="ContentView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="610"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fertilizer concentration:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dW2-z0-pHu">
+                                        <rect key="frame" x="8" y="80" width="180" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="0t4-iG-QAo"/>
+                                            <constraint firstAttribute="width" constant="184" id="1aE-jG-3dt"/>
+                                            <constraint firstAttribute="width" constant="184" id="6Dr-aC-85C"/>
+                                            <constraint firstAttribute="width" constant="184" id="CSf-RE-laP"/>
+                                            <constraint firstAttribute="width" constant="184" id="O4V-OP-a0d"/>
+                                            <constraint firstAttribute="width" constant="184" id="ak2-Ew-IT3"/>
+                                            <constraint firstAttribute="height" constant="21" id="huw-lg-rBO"/>
+                                            <constraint firstAttribute="width" constant="184" id="kpO-VR-NaT"/>
+                                            <constraint firstAttribute="width" constant="83" id="lsh-0R-FnJ"/>
+                                            <constraint firstAttribute="width" constant="184" id="mNI-r5-8AP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="0t4-iG-QAo"/>
+                                                <exclude reference="1aE-jG-3dt"/>
+                                                <exclude reference="6Dr-aC-85C"/>
+                                                <exclude reference="CSf-RE-laP"/>
+                                                <exclude reference="O4V-OP-a0d"/>
+                                                <exclude reference="ak2-Ew-IT3"/>
+                                                <exclude reference="huw-lg-rBO"/>
+                                                <exclude reference="kpO-VR-NaT"/>
+                                                <exclude reference="lsh-0R-FnJ"/>
+                                                <exclude reference="mNI-r5-8AP"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kph-7M-7LF">
+                                        <rect key="frame" x="16" y="239" width="375" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="D0V-fd-S5q"/>
+                                            <constraint firstAttribute="width" constant="341" id="M9d-Si-yej"/>
+                                            <constraint firstAttribute="width" constant="18" id="TCA-RC-9mL"/>
+                                            <constraint firstAttribute="height" constant="83" id="Y07-tu-ekA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="D0V-fd-S5q"/>
+                                                <exclude reference="M9d-Si-yej"/>
+                                                <exclude reference="TCA-RC-9mL"/>
+                                                <exclude reference="Y07-tu-ekA"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pounds of fertilizer needed:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJy-v0-liy">
+                                        <rect key="frame" x="8" y="211" width="211" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="2sg-dE-yUn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="2sg-dE-yUn"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Eu-yx-rFa">
+                                        <rect key="frame" x="8" y="173" width="368" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ONI-nm-CsP">
+                                        <rect key="frame" x="433" y="173" width="143" height="29"/>
+                                        <segments>
+                                            <segment title="1000 sqft"/>
+                                            <segment title="acre"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="areaSelection:" destination="BYZ-38-t0r" eventType="valueChanged" id="zkJ-AN-Iu4"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cLL-dg-d92">
+                                        <rect key="frame" x="433" y="236" width="143" height="29"/>
+                                        <segments>
+                                            <segment title="1000 sqft"/>
+                                            <segment title="acre"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="answerSelection:" destination="BYZ-38-t0r" eventType="valueChanged" id="NXf-Fb-Psb"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="per" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEW-cN-QZU">
+                                        <rect key="frame" x="399" y="173" width="26" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="26" id="iLN-mK-phw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="per" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIe-9V-GKA">
+                                        <rect key="frame" x="399" y="240" width="26" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="26" id="eZ6-PS-d6C"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kUE-UJ-271">
+                                        <rect key="frame" x="433" y="109" width="143" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="143" id="pjo-ii-jIq"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="ppm"/>
+                                            <segment title="%"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="concentrationSelection:" destination="BYZ-38-t0r" eventType="valueChanged" id="iSR-t1-Q2V"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FOh-ug-qik">
+                                        <rect key="frame" x="8" y="107" width="402" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pounds of nutrient recommended:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pq0-pn-YoK">
+                                        <rect key="frame" x="8" y="145" width="262" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="k03-hE-5GJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="k03-hE-5GJ"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="cLL-dg-d92" firstAttribute="leading" secondItem="ONI-nm-CsP" secondAttribute="leading" id="08k-sS-CMW"/>
+                                    <constraint firstItem="6Eu-yx-rFa" firstAttribute="leading" secondItem="xJy-v0-liy" secondAttribute="leading" id="3KZ-dU-cRS"/>
+                                    <constraint firstItem="cLL-dg-d92" firstAttribute="leading" secondItem="BIe-9V-GKA" secondAttribute="trailing" constant="8" id="6wM-QQ-h0a"/>
+                                    <constraint firstItem="xJy-v0-liy" firstAttribute="top" secondItem="6Eu-yx-rFa" secondAttribute="bottom" constant="8" id="80V-i4-Rxg"/>
+                                    <constraint firstItem="kph-7M-7LF" firstAttribute="top" secondItem="xJy-v0-liy" secondAttribute="bottom" constant="7" id="8Yw-Yl-c8v"/>
+                                    <constraint firstItem="6Eu-yx-rFa" firstAttribute="leading" secondItem="kph-7M-7LF" secondAttribute="leading" constant="-8" id="8m7-TN-MeD"/>
+                                    <constraint firstItem="cLL-dg-d92" firstAttribute="centerY" secondItem="BIe-9V-GKA" secondAttribute="centerY" id="9vS-DX-k4b"/>
+                                    <constraint firstAttribute="trailing" secondItem="kUE-UJ-271" secondAttribute="trailing" constant="24" id="CJj-lP-TW4"/>
+                                    <constraint firstItem="ONI-nm-CsP" firstAttribute="leading" secondItem="BEW-cN-QZU" secondAttribute="trailing" constant="8" symbolic="YES" id="CNx-wh-h4h"/>
+                                    <constraint firstItem="dW2-z0-pHu" firstAttribute="leading" secondItem="FOh-ug-qik" secondAttribute="leading" id="FXL-Z9-Mn7"/>
+                                    <constraint firstAttribute="trailing" secondItem="ONI-nm-CsP" secondAttribute="trailing" constant="24" id="FxY-hs-Glh"/>
+                                    <constraint firstItem="BEW-cN-QZU" firstAttribute="leading" secondItem="6Eu-yx-rFa" secondAttribute="trailing" constant="23" id="Hhp-or-LDW"/>
+                                    <constraint firstItem="Pq0-pn-YoK" firstAttribute="leading" secondItem="6Eu-yx-rFa" secondAttribute="leading" id="J2v-rd-cw6"/>
+                                    <constraint firstItem="BIe-9V-GKA" firstAttribute="leading" secondItem="kph-7M-7LF" secondAttribute="trailing" constant="8" id="JHm-uC-dFj"/>
+                                    <constraint firstItem="FOh-ug-qik" firstAttribute="bottom" secondItem="kUE-UJ-271" secondAttribute="bottom" id="KHL-7s-yzF"/>
+                                    <constraint firstItem="cLL-dg-d92" firstAttribute="centerY" secondItem="kph-7M-7LF" secondAttribute="centerY" id="MMH-7q-hnU"/>
+                                    <constraint firstItem="kUE-UJ-271" firstAttribute="leading" secondItem="FOh-ug-qik" secondAttribute="trailing" constant="23" id="N0P-kU-CqL"/>
+                                    <constraint firstItem="dW2-z0-pHu" firstAttribute="leading" secondItem="3vS-uh-lt3" secondAttribute="leadingMargin" id="QJa-lG-yWy"/>
+                                    <constraint firstItem="6Eu-yx-rFa" firstAttribute="top" secondItem="BEW-cN-QZU" secondAttribute="top" id="b6z-ZA-pcd"/>
+                                    <constraint firstItem="Pq0-pn-YoK" firstAttribute="leading" secondItem="FOh-ug-qik" secondAttribute="leading" id="bKK-GF-NxC"/>
+                                    <constraint firstItem="dW2-z0-pHu" firstAttribute="top" secondItem="3vS-uh-lt3" secondAttribute="top" constant="80" id="ctu-IQ-Ngu"/>
+                                    <constraint firstItem="ONI-nm-CsP" firstAttribute="leading" secondItem="kUE-UJ-271" secondAttribute="leading" id="edJ-Le-oVb"/>
+                                    <constraint firstAttribute="height" constant="610" id="foc-f5-TUi"/>
+                                    <constraint firstItem="Pq0-pn-YoK" firstAttribute="top" secondItem="FOh-ug-qik" secondAttribute="bottom" constant="8" id="gRW-vl-oan"/>
+                                    <constraint firstItem="6Eu-yx-rFa" firstAttribute="top" secondItem="Pq0-pn-YoK" secondAttribute="bottom" constant="7" id="i4A-Ph-KNM"/>
+                                    <constraint firstItem="FOh-ug-qik" firstAttribute="top" secondItem="dW2-z0-pHu" secondAttribute="bottom" constant="7" id="shE-ee-SM5"/>
+                                    <constraint firstItem="ONI-nm-CsP" firstAttribute="top" secondItem="BEW-cN-QZU" secondAttribute="top" id="yM3-I0-RE8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3vS-uh-lt3" firstAttribute="leading" secondItem="H3S-WK-4JM" secondAttribute="leading" id="1jp-tV-OJF"/>
+                            <constraint firstAttribute="trailing" secondItem="3vS-uh-lt3" secondAttribute="trailing" id="YYg-8n-zae"/>
+                            <constraint firstItem="3vS-uh-lt3" firstAttribute="top" secondItem="H3S-WK-4JM" secondAttribute="top" id="yi1-xT-Tdn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Fertilizer Calculator" id="8gr-mg-vod">
+                        <barButtonItem key="rightBarButtonItem" title="Help" id="Gem-Ey-07m">
+                            <connections>
+                                <segue destination="i8Y-lI-6dI" kind="show" id="vJC-zR-P8t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="answer" destination="kph-7M-7LF" id="arl-8f-jYZ"/>
+                        <outlet property="concentration" destination="FOh-ug-qik" id="RjI-ND-ONg"/>
+                        <outlet property="recommendation" destination="6Eu-yx-rFa" id="aEm-WX-Ami"/>
+                        <outlet property="recommendationLabel" destination="Pq0-pn-YoK" id="3OB-x8-5eH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1379" y="494"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="bRZ-F0-mKU">
+            <objects>
+                <viewController title="Help" id="i8Y-lI-6dI" customClass="HelpViewController" customModule="Snake_Oil_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3JK-oL-U0L"/>
+                        <viewControllerLayoutGuide type="bottom" id="pmi-Re-C8d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Hd-sO-kGm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-wT-qZz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="U9p-wT-qZz" secondAttribute="trailing" id="8ck-4U-O5y"/>
+                            <constraint firstItem="U9p-wT-qZz" firstAttribute="top" secondItem="8Hd-sO-kGm" secondAttribute="top" id="APi-uc-xW3"/>
+                            <constraint firstItem="U9p-wT-qZz" firstAttribute="leading" secondItem="8Hd-sO-kGm" secondAttribute="leading" id="S3H-rS-bs9"/>
+                            <constraint firstItem="U9p-wT-qZz" firstAttribute="bottom" secondItem="pmi-Re-C8d" secondAttribute="top" id="qsT-LS-u0D"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="U9p-wT-qZz" id="2tS-hZ-UbR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Uc-EI-5Lm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-699" y="494"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="vkj-yD-Mxe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MZZ-fS-dYZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="pFZ-5e-hqK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7xz-3y-qJo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CU4-g8-Vxk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i5H-tV-rm6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2046" y="494"/>
+        </scene>
+    </scenes>
+</document>

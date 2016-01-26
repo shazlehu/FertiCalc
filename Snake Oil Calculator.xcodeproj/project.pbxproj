@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221E344A1AC3536600F0D11C /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E34491AC3536600F0D11C /* HelpViewController.swift */; };
+		221E34501AC43F9300F0D11C /* help.htm in Resources */ = {isa = PBXBuildFile; fileRef = 221E344F1AC43F9300F0D11C /* help.htm */; };
+		221E34521AC4436500F0D11C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221E34511AC4436500F0D11C /* Images.xcassets */; };
+		2221AF4B1A83CACB00B0290E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2221AF4A1A83CACB00B0290E /* AppDelegate.swift */; };
+		2221AF4D1A83CACB00B0290E /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2221AF4C1A83CACB00B0290E /* CalcViewController.swift */; };
+		2221AF501A83CACB00B0290E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2221AF4E1A83CACB00B0290E /* Main.storyboard */; };
+		2221AF551A83CACB00B0290E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221AF531A83CACB00B0290E /* LaunchScreen.xib */; };
+		2221AF611A83CACB00B0290E /* Snake_Oil_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2221AF601A83CACB00B0290E /* Snake_Oil_CalculatorTests.swift */; };
+		2221AF6B1A83D85900B0290E /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2221AF6A1A83D85900B0290E /* CalculatorModel.swift */; };
+		2221AFCF1A88FDAC00B0290E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2221AFCE1A88FDAC00B0290E /* TableViewController.swift */; };
+		22F4D9A71A8BAB7500DA834C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F4D9A61A8BAB7500DA834C /* TabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2221AF5B1A83CACB00B0290E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2221AF3D1A83CACB00B0290E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2221AF441A83CACB00B0290E;
+			remoteInfo = "Snake Oil Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221E34491AC3536600F0D11C /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		221E344F1AC43F9300F0D11C /* help.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.htm; sourceTree = "<group>"; };
+		221E34511AC4436500F0D11C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		2221AF451A83CACB00B0290E /* Snake Oil Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snake Oil Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2221AF491A83CACB00B0290E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2221AF4A1A83CACB00B0290E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2221AF4C1A83CACB00B0290E /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		2221AF4F1A83CACB00B0290E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2221AF541A83CACB00B0290E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2221AF5A1A83CACB00B0290E /* Snake Oil CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snake Oil CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2221AF5F1A83CACB00B0290E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2221AF601A83CACB00B0290E /* Snake_Oil_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake_Oil_CalculatorTests.swift; sourceTree = "<group>"; };
+		2221AF6A1A83D85900B0290E /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorModel.swift; path = ../CalculatorModel.swift; sourceTree = "<group>"; };
+		2221AFCE1A88FDAC00B0290E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		22F4D9A61A8BAB7500DA834C /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2221AF421A83CACB00B0290E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2221AF571A83CACB00B0290E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2221AF3C1A83CACB00B0290E = {
+			isa = PBXGroup;
+			children = (
+				2221AF471A83CACB00B0290E /* Snake Oil Calculator */,
+				2221AF5D1A83CACB00B0290E /* Snake Oil CalculatorTests */,
+				2221AF461A83CACB00B0290E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2221AF461A83CACB00B0290E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2221AF451A83CACB00B0290E /* Snake Oil Calculator.app */,
+				2221AF5A1A83CACB00B0290E /* Snake Oil CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2221AF471A83CACB00B0290E /* Snake Oil Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				2221AF4E1A83CACB00B0290E /* Main.storyboard */,
+				221E34491AC3536600F0D11C /* HelpViewController.swift */,
+				2221AF4C1A83CACB00B0290E /* CalcViewController.swift */,
+				221E344F1AC43F9300F0D11C /* help.htm */,
+				2221AFCE1A88FDAC00B0290E /* TableViewController.swift */,
+				22F4D9A61A8BAB7500DA834C /* TabBarController.swift */,
+				2221AF6A1A83D85900B0290E /* CalculatorModel.swift */,
+				2221AF481A83CACB00B0290E /* Supporting Files */,
+			);
+			path = "Snake Oil Calculator";
+			sourceTree = "<group>";
+		};
+		2221AF481A83CACB00B0290E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2221AF531A83CACB00B0290E /* LaunchScreen.xib */,
+				221E34511AC4436500F0D11C /* Images.xcassets */,
+				2221AF4A1A83CACB00B0290E /* AppDelegate.swift */,
+				2221AF491A83CACB00B0290E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2221AF5D1A83CACB00B0290E /* Snake Oil CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2221AF601A83CACB00B0290E /* Snake_Oil_CalculatorTests.swift */,
+				2221AF5E1A83CACB00B0290E /* Supporting Files */,
+			);
+			path = "Snake Oil CalculatorTests";
+			sourceTree = "<group>";
+		};
+		2221AF5E1A83CACB00B0290E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2221AF5F1A83CACB00B0290E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2221AF441A83CACB00B0290E /* Snake Oil Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2221AF641A83CACB00B0290E /* Build configuration list for PBXNativeTarget "Snake Oil Calculator" */;
+			buildPhases = (
+				2221AF411A83CACB00B0290E /* Sources */,
+				2221AF421A83CACB00B0290E /* Frameworks */,
+				2221AF431A83CACB00B0290E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snake Oil Calculator";
+			productName = "Snake Oil Calculator";
+			productReference = 2221AF451A83CACB00B0290E /* Snake Oil Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2221AF591A83CACB00B0290E /* Snake Oil CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2221AF671A83CACB00B0290E /* Build configuration list for PBXNativeTarget "Snake Oil CalculatorTests" */;
+			buildPhases = (
+				2221AF561A83CACB00B0290E /* Sources */,
+				2221AF571A83CACB00B0290E /* Frameworks */,
+				2221AF581A83CACB00B0290E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2221AF5C1A83CACB00B0290E /* PBXTargetDependency */,
+			);
+			name = "Snake Oil CalculatorTests";
+			productName = "Snake Oil CalculatorTests";
+			productReference = 2221AF5A1A83CACB00B0290E /* Snake Oil CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2221AF3D1A83CACB00B0290E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Terranian Farm";
+				TargetAttributes = {
+					2221AF441A83CACB00B0290E = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = L7K4TQL569;
+					};
+					2221AF591A83CACB00B0290E = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = L7K4TQL569;
+						TestTargetID = 2221AF441A83CACB00B0290E;
+					};
+				};
+			};
+			buildConfigurationList = 2221AF401A83CACB00B0290E /* Build configuration list for PBXProject "Snake Oil Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2221AF3C1A83CACB00B0290E;
+			productRefGroup = 2221AF461A83CACB00B0290E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2221AF441A83CACB00B0290E /* Snake Oil Calculator */,
+				2221AF591A83CACB00B0290E /* Snake Oil CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2221AF431A83CACB00B0290E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221E34521AC4436500F0D11C /* Images.xcassets in Resources */,
+				221E34501AC43F9300F0D11C /* help.htm in Resources */,
+				2221AF501A83CACB00B0290E /* Main.storyboard in Resources */,
+				2221AF551A83CACB00B0290E /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2221AF581A83CACB00B0290E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2221AF411A83CACB00B0290E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2221AF6B1A83D85900B0290E /* CalculatorModel.swift in Sources */,
+				221E344A1AC3536600F0D11C /* HelpViewController.swift in Sources */,
+				2221AF4D1A83CACB00B0290E /* CalcViewController.swift in Sources */,
+				2221AF4B1A83CACB00B0290E /* AppDelegate.swift in Sources */,
+				22F4D9A71A8BAB7500DA834C /* TabBarController.swift in Sources */,
+				2221AFCF1A88FDAC00B0290E /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2221AF561A83CACB00B0290E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2221AF611A83CACB00B0290E /* Snake_Oil_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2221AF5C1A83CACB00B0290E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2221AF441A83CACB00B0290E /* Snake Oil Calculator */;
+			targetProxy = 2221AF5B1A83CACB00B0290E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2221AF4E1A83CACB00B0290E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2221AF4F1A83CACB00B0290E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2221AF531A83CACB00B0290E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2221AF541A83CACB00B0290E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2221AF621A83CACB00B0290E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2221AF631A83CACB00B0290E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2221AF651A83CACB00B0290E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Snake Oil Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2221AF661A83CACB00B0290E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Snake Oil Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2221AF681A83CACB00B0290E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Snake Oil CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snake Oil Calculator.app/Snake Oil Calculator";
+			};
+			name = Debug;
+		};
+		2221AF691A83CACB00B0290E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Snake Oil CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snake Oil Calculator.app/Snake Oil Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2221AF401A83CACB00B0290E /* Build configuration list for PBXProject "Snake Oil Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2221AF621A83CACB00B0290E /* Debug */,
+				2221AF631A83CACB00B0290E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2221AF641A83CACB00B0290E /* Build configuration list for PBXNativeTarget "Snake Oil Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2221AF651A83CACB00B0290E /* Debug */,
+				2221AF661A83CACB00B0290E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2221AF671A83CACB00B0290E /* Build configuration list for PBXNativeTarget "Snake Oil CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2221AF681A83CACB00B0290E /* Debug */,
+				2221AF691A83CACB00B0290E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2221AF3D1A83CACB00B0290E /* Project object */;
+}
